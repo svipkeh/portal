@@ -1,0 +1,39 @@
+
+/*20170606 调整整体颜色风格与公司风格一致*/
+.navbar-default{
+	background-color: #2A3F54;
+	border: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+	color: #bbb;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	background-color: rgba(0, 0, 0, 0.15)
+}
+
+.bg-info{
+	background-color: #ddd;
+}
+/*20170606 调整整体颜色风格与公司风格一致*/
+
+
+.page-header {
+	padding-bottom: 5px;
+	margin: 0px 0px 10px 0px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #ccc;
+    border-color: #ccc;
+    color: #ffffff;
+    cursor: default;
+    z-index: 2;
+}
+
+label.validate_label{
+	font-weight: normal;
+	color: red;
+}

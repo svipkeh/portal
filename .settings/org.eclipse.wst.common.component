@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="portal">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="commons-discovery-0.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-discovery-0.2/commons-discovery-0.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wsdl4j-1.6.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/wsdl4j-1.6.1/wsdl4j-1.6.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cos-26Dec2008.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/cos-26Dec2008/cos-26Dec2008">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis-jaxrpc-1.2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis-jaxrpc-1.2.1/axis-jaxrpc-1.2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fastjson-1.2.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/fastjson-1.2.7/fastjson-1.2.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-ooxml-schemas-3.15.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/poi-ooxml-schemas-3.15/poi-ooxml-schemas-3.15">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-3.15.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/poi-3.15/poi-3.15">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="xmlbeans-2.6.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xmlbeans-2.6.0/xmlbeans-2.6.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.0.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.0.4/commons-logging-1.0.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.20-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.20-bin/mysql-connector-java-5.1.20-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="servmgr-common.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/servmgr-common/servmgr-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="joda-time-2.7.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/joda-time-2.7/joda-time-2.7">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="axis.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/axis/axis">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="c3p0-0.9.1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/c3p0-0.9.1.2/c3p0-0.9.1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections4-4.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-collections4-4.1/commons-collections4-4.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-2.2.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/gson-2.2.2/gson-2.2.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="trustmo_encrypt_1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/trustmo_encrypt_1.2/trustmo_encrypt_1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.2/jstl-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="poi-ooxml-3.15.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/poi-ooxml-3.15/poi-ooxml-3.15">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="fort-common.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/fort-common/fort-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="portal"/>
+        <property name="java-output-path" value="/portal/build/classes"/>
+    </wb-module>
+</project-modules>

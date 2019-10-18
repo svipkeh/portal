@@ -7,7 +7,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @author up
+ * @author hp
  */
 @Inherited
 @Retention(RetentionPolicy.RUNTIME)
